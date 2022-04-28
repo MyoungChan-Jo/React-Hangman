@@ -1,0 +1,39 @@
+.container{
+  width:400px;
+
+}
+
+.letter{
+  border: 1px solid #cccccc;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.button{
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  line-height: 34px;
+}
+
+.flex{
+  display:flex;
+}
+
+.flex-wrap{
+  margin-top:10px;
+  flex-wrap:wrap;
+  gap:5px;
+}
+
+/*#07-5 클래스명 안보이도록. 다시 button.js로 이동 */
+.guessed,
+.hidden {
+  display:none;
+}
